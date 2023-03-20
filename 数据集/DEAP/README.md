@@ -11,3 +11,8 @@
 |Face_video|压缩文件|实验|实验中的正面面部视频记录为参与者1-22。|
 |Data_original|压缩文件|实验|实验中原始未处理的生理数据记录，采用BioSemi .bdf格式。|
 |Data_preprocessed|Zip 文件 for Python 和 Matlab|实验|实验中以Matlab和Python（numpy）格式的预处理（减采样，EOG去除，过滤，分割等）生理数据记录。|
+
+
+数据集百度网盘链接：
+链接：<https://pan.baidu.com/s/1H5kW8ufMih8O9LDQ1ZmNMg?pwd=d2ct> 
+提取码：d2ct
