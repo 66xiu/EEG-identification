@@ -5,6 +5,8 @@
 
 ## 使用DEAP数据集，运行CNN分类器结果：
 
-![结果1](https://github.com/66xiu/EEG-identification/blob/77a93b11467916e62c5cc84af99a4da67814962e/2020.3.23/%E4%BB%A3%E7%A0%81%E5%A4%8D%E7%8E%B0/1.GIF)
+![1](https://user-images.githubusercontent.com/109055774/226607824-377d7f7b-e637-4382-b3c5-7d67db4ee2c2.GIF)
 
-![结果2](https://github.com/66xiu/EEG-identification/blob/77a93b11467916e62c5cc84af99a4da67814962e/2020.3.23/%E4%BB%A3%E7%A0%81%E5%A4%8D%E7%8E%B0/2.GIF)
+
+![2](https://user-images.githubusercontent.com/109055774/226607887-d19e8a0c-e9c1-43e2-8493-24801352f1a9.GIF)
+
