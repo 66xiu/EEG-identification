@@ -10,7 +10,7 @@
 然后，监督机器学习(ML)，包括支持向量机(SVM)，随机森林(RF)，线性判别分析(LDA)，高斯混合模型(GMM)和多层感知器(MLP)。这些方法有一定的局限性，特征提取步骤需要领域知识，
 不能保证创建完全不同的特征。
 
-深度学习方法试图解决上面问题。利用CNN从原始脑电图信号中自动提取基本特征。然后发展有  RNN、GRU、CNN+RNN、CNN+LSTM、CNN+GRU、GCNN、CNN+GCNN等等。
+深度学习方法试图解决上面问题。利用CNN从原始脑电图信号中自动提取基本特征。然后发展有  RNN、GRU、CNN+RNN、CNN+LSTM、CNN+GRU、GCNN、CNN+GCNN、LSTM+GCN等等。
 
 ----
 **CNN**:    
@@ -32,9 +32,14 @@ CNN用于处理脑电图的空间信息，而rnn则提取脑电图的时间信�
 *2019:《Convolutional Neural Networks Using Dynamic Functional Connectivity for EEG-based Person Identification in Diverse Human States》:提出了一种新的脑电图生物特征识别模型,其新颖之处在于将脑电信号表示为基于频内和跨频函数连通性估计的图，
 并使用图卷积神经网络(GCNN)自动捕获脑电信号的深层内在结构表征以进行人员识别。*
 
+*2020：《Attention-based Graph ResNet for Motor Intent Detection from Raw EEG signals》：提出了一种基于注意的图残差网络，即图卷积神经网络(GCN)的新结构，将EEG电极的拓扑结构构建为图，用于从原始EEG信号中检测人类运动意图。同时，为了解决原始脑电运动图像(MI)数据中深层网络的退化问题，引入了一种全注意结构的深度剩余学习。*
+
 **CNN+GCNN**:    
 *2021:《EEG-BBNet: a Hybrid Framework for Brain Biometric using Graph Connectivity》:
 提出了EEG-BBNet，一种集成了卷积神经网络(CNN)和图卷积神经网络(GCNN)的混合网络。联合利用了CNN在自动特征提取方面的优势和GCNN通过图表示学习EEG电极之间连通性的能力。*
+
+**LSTM+GCN**:       
+*2020:《Deep Feature Mining via Attention-based BiLSTM-GCN for Human Motor Imagery Recognition》：采用了注意机制的双向长短期记忆(BiLSTM)，图卷积神经网络(GCN)通过配合从整体数据中估计出的特征拓扑结构来提高译码性能。*
 
 ----
 
