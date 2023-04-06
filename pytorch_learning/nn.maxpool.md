@@ -1,4 +1,5 @@
 # 最大池化maxpool
+https://pytorch.org/docs/stable/generated/torch.nn.MaxPool2d.html#torch.nn.MaxPool2d
 最大池化是要保留输入的特征，同时要将数据量减少
 ```
 import torch
