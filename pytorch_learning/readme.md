@@ -17,3 +17,5 @@ nn.maxpool
 nn.relu
 
 nn.sigmoid
+
+nn.Linear
