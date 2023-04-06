@@ -11,3 +11,5 @@ dataloader
 nn.Module
 
 nn.conv
+
+nn.maxpool
