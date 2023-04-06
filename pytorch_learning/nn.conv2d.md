@@ -1,4 +1,6 @@
 # nn.conv2d写卷积层
+
+https://pytorch.org/docs/stable/generated/torch.nn.Conv2d.html#torch.nn.Conv2d
 ```
 import torch
 import torchvision
