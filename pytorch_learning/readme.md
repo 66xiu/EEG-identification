@@ -14,6 +14,6 @@ https://www.bilibili.com/video/BV1hE411t7RN?p=1&vd_source=194b3e51914a9ddf37370d
 ***nn.relu***      
 ***nn.sigmoid***     
 ***nn.Linear***     
-
+***Sequential***
 # 代码
 
