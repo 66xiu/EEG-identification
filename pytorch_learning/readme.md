@@ -15,5 +15,10 @@ https://www.bilibili.com/video/BV1hE411t7RN?p=1&vd_source=194b3e51914a9ddf37370d
 ***nn.sigmoid***     
 ***nn.Linear***     
 ***Sequential***
-# 代码
 
+# 快捷键
+
+	CTRL+P      参数信息（在方法中调用的参数）
+  |快捷键|作用|
+  |:---|:---|
+  |CTRL+P|参数信息（在方法中调用的参数）|
