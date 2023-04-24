@@ -3,9 +3,9 @@ https://www.bilibili.com/video/BV1hE411t7RN?p=1&vd_source=194b3e51914a9ddf37370d
 
 # 大概内容
 
-***SummaryWriter***     
-***tensorboard***     
-***transforms***     
+***SummaryWriter***           
+***tensorboard***          
+***transforms***          
 ***datasets***     
 ***dataloader***     
 ***nn.Module***     
@@ -21,3 +21,4 @@ https://www.bilibili.com/video/BV1hE411t7RN?p=1&vd_source=194b3e51914a9ddf37370d
   |快捷键|作用|
   |:---|:---|
   |CTRL+P|参数信息（在方法中调用的参数）|
+  |CTRL+ALT+L|代码格式标准化|
