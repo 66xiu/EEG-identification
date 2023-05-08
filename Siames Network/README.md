@@ -30,6 +30,30 @@
 * Given a query, predict its class.
   - Use the Siamese network to compute similarity or distance.
 
+### Few-Shot Prediction by Pretrained CNN
+* Step1:Pretraining
+  - Pretrain a CNN on large-scale training data.
+  - Use the CNN for feature extraction.
+* Step2:Few-Shot Prediction
+  - Map images in the support set to feature vectors.
+  - Obtain the mean feature vector of each class:u1,...uk.
+  - Compare the feature of query with u1,...uk.
+-------------------------------------------------
+**优化**
+* Step1:Pretraining
+  - Pretrain a CNN on large-scale training data.
+  - Use the CNN for feature extraction.
+* Step2:Fine Tunning  //提高预测百分率
+  - Training a classifier on the support set.
+  - Tricks:
+    1.Using M to initialize W.
+    2.Entropy regularization.
+    3.Cosine similarity + Softmax classifier.
+* Step3:Few-Shot Prediction
+  - Map images in the support set to feature vectors.
+  - Obtain the mean feature vector of each class:u1,...uk.
+  - Compare the feature of query with u1,...uk.
+
 # Siamese Network（孪生网络/连体网络）
 ## 两种训练Siamese Network的方法：
 * 第一中方法：每次取两个样本，比较它们的相似度
