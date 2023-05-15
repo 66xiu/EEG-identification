@@ -70,3 +70,6 @@
 ![image](https://user-images.githubusercontent.com/109055774/236823931-4c5983e4-7f09-41c8-9918-010a5d8af63b.png)
 
 
+![image](https://github.com/66xiu/EEG-identification/assets/109055774/2838624d-af31-4f6d-9bf8-c88131571454)
+
+
